@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
+
+
+.navbar {
+    margin-bottom: 0;
+}
+
+#nav-item1 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#nav-item2 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#nav-item3 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#nav-item4 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#nav-item5 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#nav-item6 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#nav-item7 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+.podcast-home-page {
+    Background-image: url('https://img.freepik.com/premium-photo/studio-microphone-isolated-dark-background-with-neon-lighting-space-text-3d-render_360032-925.jpg?');
+    height: 80vh;
+    background-size: cover;
+}
+
+.logo {
+    height: 50px;
+}
+
+.navbar-align-element {
+    margin-left: auto;
+}
+
+.reveal-text {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  color:white;
+  font-size:60px;
+}
+
+/* sliding overlay */
+.reveal-text::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background:transparent;
+  transform: skewX(-20deg);
+  animation: slide-reveal 2s forwards;
+}
+
+/* text fade-in synced with overlay */
+.reveal-text {
+  opacity: 0;
+  animation: text-fade 2s forwards;
+  animation-delay: 0.4s;
+}
+
+@keyframes slide-reveal {
+  to { left: 100%; }
+}
+
+@keyframes text-fade {
+  to { opacity: 1; }
+}
+
+
+.homepage-heading {
+    color: White;
+    font-size: 70px;
+}
+
+.add-section {
+    background-color: Black;
+    color: #ffffff;
+}
+
+
+
+.logo-heading {
+    font-family: "Roboto";
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.img {
+    width: 100px;
+
+}
+
+.add-section3 {
+    background-color: #1B2235;
+}
+
+.heading-section3 {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.para-sec3 {
+    color: #cccccc;
+    font-size: 10px;
+   font-family: 'Caveat', cursive;
+}
+
+.section-3 {
+    background-color: #1B2235;
+}
+
+.heading-section3 {
+    color: #ffffff;
+    font-size: 50px;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.para-sec3 {
+    color: #cccccc;
+    font-size: 30px;
+    font-family: "Caveat";
+}
+
+.speaker-section-card {
+    background-color: black;
+    border-radius: 16px;
+}
+
+.speaker-img {
+
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+
+}
+
+.card-heading {
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.card-des {
+    color: #ffffff;
+    font-size: 11px;
+}
+
+.speaker-name {
+    color: #cccccc;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.sml-decp {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.sml-decp2 {
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.button {
+    color: #ffffff;
+    font-size: 12px;
+    height: 30px;
+    width: 60px;
+    background-color: black;
+    margin: 10px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+
+}
+
+.reviews-bg-container {
+    background-color: #261342;
+
+}
+
+.reviews-heading {
+    color: #ffffff;
+    font-size: 55px;
+    font-family: "Roboto";
+    text-align: center;
+    font-weight: bold;
+}
+
+.reviews-count {
+    color: #fcae1e;
+    border-width: 2px;
+    border-color: #fcae1e;
+    border-style: solid;
+    background-color: #000000;
+    border-radius: 18px;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.review-card {
+    background-color: black;
+    padding: 10px;
+    border-radius: 16px;
+}
+
+.review-img1 {
+    height: 90px;
+    border-radius: 100px;
+}
+
+.reviewer-name {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.reviwer-descp {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.youtube-section {
+    background-color: black;
+}
+
+.youtube-section-heading {
+    color: #ffffff;
+    font-size: 38px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.youtube-points {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.youtube-img {
+    height: 200px;
+    width: 300px;
+}
+
+.youtube-logo {
+    height: 400px;
+
+
+}
+
+.unoder-l {
+    list-style: none;
+}
+
+.channel-section {
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/022/347/683/small_2x/studio-podcast-microphone-in-studio-room-background-photo.jpg");
+
+}
+
+.channel-heading {
+    color: #90d5ff;
+    font-size: 40px;
+}
+
+.channel-button {
+    height: 40px;
+    width: 130px;
+    background-color: #7F00FF;
+    color: #ffffff;
+    border-radius: 16px;
+    border-width: 0px;
+
+}
+
+.channel-logo {
+    height: 100px;
+}
+
+
+.footer-section {
+    background-color: #0d2436;
+}
+
+.footer-heading {
+    color: #5a7184;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.episod-list {
+    color: #5a7184;
+    font-size: 16px;
+}
+
+.page-list {
+    color: #5a7184;
+    font-size: 16px;
+}
+
+.follow-section-heading {
+    color: #5a7184;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.icon {
+    font-size: 18px;
+    color: #5a7184;
+    text-align: center;
+}
+
+.icon-container {
+    height: 40px;
+    width: 40px;
+    background-color: #202b36;
+    border-radius: 40px;
+    padding-top: 5px;
+
+}
+
+.follow-section-list {
+    color: #5a7184;
+    font-size: 16px;
+    padding-bottom: 15px;
+}
